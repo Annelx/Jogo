@@ -1,1 +1,24 @@
-https://replit.com/@Annelx/Jogo?s=app
+print("Jogador 1, faça sua escolha: pedra, papel ou tedoura")
+escolha1=(input("digite a opção que você escolheu: "))
+
+
+print("Jogador 2, faça sua escolha: pedra, papel ou tedoura")
+escolha2=(input("digite a opção que você escolheu: "))
+
+if escolha1==escolha2:
+     print("Vocês escolheram a mesma coisa, o jogo empatou ")
+     
+else:
+    if escolha1== "pedra" and escolha2== "papel":
+     print("Papel cobre pedra, o jogador 2 foi o vencedor")
+    if escolha1== "pedra" and escolha2== "tesoura":
+        print("Pedra quebra tesoura, o jodador 1 foi o vencedor")
+    if escolha1== "papel" and escolha2== "tesoura":
+        print("Tesoura corta papel, o jogdador 2 venceu")
+    if escolha1== "papel" and escolha2== "pedra":
+        print("Papel cobre pedra, o jogador 1 venceu")
+    if escolha1== "tesoura" and escolha2== "papel":
+        print("tesoura corta papel, o jogador 1 venceu")
+    if escolha1== "tesoura" and escolha2== "pedra":
+        print("pedra quebra tesoura, o jogador 2 venceu")
+print ("Fim de programa, o jogo acabou")
